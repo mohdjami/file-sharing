@@ -1,0 +1,12 @@
+npm init -y
+
+npm i express  mongoose multer ejs bcrypt dotenv
+
+npm i --save-dev nodemon
+
+package.json  ---  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+
+npm run devStart
+
